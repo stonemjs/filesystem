@@ -1,3 +1,7 @@
+**Filesystem Documentation v0.0.1**
+
+***
+
 # Stone.js: Filesystem
 
 [![npm](https://img.shields.io/npm/l/@stone-js/filesystem)](https://opensource.org/licenses/Apache-2.0)
@@ -13,7 +17,6 @@ Stone.js Pure ESM Filesystem with typings.
 ---
 
 Get started with the [documentation](https://stonejs.com/cookbook/filesystem).
-
 
 ## Contributing
 
