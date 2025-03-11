@@ -6,7 +6,7 @@
 
 # Class: FilesystemError
 
-Defined in: filesystem/src/errors/FilesystemError.ts:6
+Defined in: [filesystem/src/errors/FilesystemError.ts:6](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/errors/FilesystemError.ts#L6)
 
 Custom error for error operations.
 
@@ -20,7 +20,7 @@ Custom error for error operations.
 
 > **new FilesystemError**(`message`, `options`): [`FilesystemError`](FilesystemError.md)
 
-Defined in: filesystem/src/errors/FilesystemError.ts:7
+Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/errors/FilesystemError.ts#L7)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: filesystem/src/errors/FilesystemError.ts:7
 
 > `readonly` `optional` **cause**: `Error`
 
-Defined in: core/dist/index.d.ts:2108
+Defined in: core/dist/index.d.ts:2914
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: core/dist/index.d.ts:2108
 
 > `readonly` `optional` **code**: `string`
 
-Defined in: core/dist/index.d.ts:2107
+Defined in: core/dist/index.d.ts:2913
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: core/dist/index.d.ts:2107
 
 > `readonly` `optional` **metadata**: `unknown`
 
-Defined in: core/dist/index.d.ts:2109
+Defined in: core/dist/index.d.ts:2915
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: core/dist/index.d.ts:2109
 
 > **toString**(`multiline`?): `string`
 
-Defined in: core/dist/index.d.ts:2130
+Defined in: core/dist/index.d.ts:2936
 
 Converts the error to a formatted string representation.
 
@@ -110,7 +110,7 @@ A formatted error string.
 
 > `static` **create**\<`T`\>(`message`, `options`?): `T`
 
-Defined in: core/dist/index.d.ts:2116
+Defined in: core/dist/index.d.ts:2922
 
 Create a RuntimeError.
 
