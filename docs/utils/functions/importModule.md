@@ -8,7 +8,7 @@
 
 > **importModule**\<`R`\>(`relativePath`): `Promise`\<`R` \| `undefined`\>
 
-Defined in: [filesystem/src/utils.ts:94](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/utils.ts#L94)
+Defined in: [filesystem/src/utils.ts:108](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/utils.ts#L108)
 
 Asynchronously imports a module given its relative path.
 

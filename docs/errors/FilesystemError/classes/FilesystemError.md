@@ -6,7 +6,7 @@
 
 # Class: FilesystemError
 
-Defined in: [filesystem/src/errors/FilesystemError.ts:6](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/errors/FilesystemError.ts#L6)
+Defined in: [filesystem/src/errors/FilesystemError.ts:6](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/errors/FilesystemError.ts#L6)
 
 Custom error for error operations.
 
@@ -20,7 +20,7 @@ Custom error for error operations.
 
 > **new FilesystemError**(`message`, `options`): [`FilesystemError`](FilesystemError.md)
 
-Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/errors/FilesystemError.ts#L7)
+Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/errors/FilesystemError.ts#L7)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/ston
 
 > `readonly` `optional` **cause**: `Error`
 
-Defined in: core/dist/index.d.ts:2914
+Defined in: core/dist/index.d.ts:3343
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: core/dist/index.d.ts:2914
 
 > `readonly` `optional` **code**: `string`
 
-Defined in: core/dist/index.d.ts:2913
+Defined in: core/dist/index.d.ts:3342
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: core/dist/index.d.ts:2913
 
 > `readonly` `optional` **metadata**: `unknown`
 
-Defined in: core/dist/index.d.ts:2915
+Defined in: core/dist/index.d.ts:3344
 
 #### Inherited from
 
@@ -82,7 +82,7 @@ Defined in: core/dist/index.d.ts:2915
 
 > **toString**(`multiline`?): `string`
 
-Defined in: core/dist/index.d.ts:2936
+Defined in: core/dist/index.d.ts:3365
 
 Converts the error to a formatted string representation.
 
@@ -110,7 +110,7 @@ A formatted error string.
 
 > `static` **create**\<`T`\>(`message`, `options`?): `T`
 
-Defined in: core/dist/index.d.ts:2922
+Defined in: core/dist/index.d.ts:3351
 
 Create a RuntimeError.
 

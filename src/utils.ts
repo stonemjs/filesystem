@@ -1,5 +1,5 @@
-import { join } from 'node:path'
 import { tmpdir } from 'node:os'
+import { join } from 'node:path'
 import process from 'node:process'
 import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
@@ -12,6 +12,16 @@ import { createHash } from 'node:crypto'
  */
 export function basePath (...paths: string[]): string {
   return join(process.cwd(), ...paths)
+}
+
+/**
+ * Resolve path from file directory.
+ *
+ * @param   {...string} paths
+ * @returns {string}
+ */
+export function dirPath (...paths: string[]): string {
+  return join(__dirname, ...paths)
 }
 
 /**

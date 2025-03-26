@@ -1,21 +1,28 @@
+import {
+  join,
+  resolve,
+  dirname,
+  extname,
+  basename,
+  isAbsolute
+} from 'node:path'
+import {
+  rmSync,
+  statSync,
+  chmodSync,
+  constants,
+  mkdirSync,
+  existsSync,
+  accessSync,
+  renameSync,
+  readFileSync,
+  realpathSync,
+  writeFileSync
+} from 'node:fs'
 import mime from 'mime/lite'
 import { filesize } from 'filesize'
 import { createHash } from 'node:crypto'
 import { FilesystemError } from '../errors/FilesystemError'
-import { basename, dirname, extname, isAbsolute, join, resolve } from 'node:path'
-import {
-  statSync,
-  existsSync,
-  accessSync,
-  constants,
-  writeFileSync,
-  readFileSync,
-  mkdirSync,
-  renameSync,
-  chmodSync,
-  rmSync,
-  realpathSync
-} from 'node:fs'
 
 /**
  * Class representing a File.

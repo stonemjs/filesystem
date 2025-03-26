@@ -8,7 +8,7 @@
 
 > **nodeModulesPath**(...`paths`): `string`
 
-Defined in: [filesystem/src/utils.ts:73](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/utils.ts#L73)
+Defined in: [filesystem/src/utils.ts:87](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/utils.ts#L87)
 
 Resolve path from node_modules directory.
 

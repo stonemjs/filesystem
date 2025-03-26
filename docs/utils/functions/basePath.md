@@ -8,7 +8,7 @@
 
 > **basePath**(...`paths`): `string`
 
-Defined in: [filesystem/src/utils.ts:13](https://github.com/stonemjs/filesystem/blob/efeed60f59037ce4e839834b4563a29f0eff2a5f/src/utils.ts#L13)
+Defined in: [filesystem/src/utils.ts:17](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/utils.ts#L17)
 
 Constructs a base path by joining the current working directory with the provided paths.
 
