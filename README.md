@@ -1,6 +1,6 @@
 # Stone.js: Filesystem
 
-[![npm](https://img.shields.io/npm/l/@stone-js/filesystem)](https://opensource.org/licenses/Apache-2.0)
+[![npm](https://img.shields.io/npm/l/@stone-js/filesystem)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/@stone-js/filesystem)](https://www.npmjs.com/package/@stone-js/filesystem)
 [![npm](https://img.shields.io/npm/dm/@stone-js/filesystem)](https://www.npmjs.com/package/@stone-js/filesystem)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
@@ -12,7 +12,7 @@ Stone.js Pure ESM Filesystem with typings.
 
 ---
 
-Get started with the [documentation](https://stonejs.com/cookbook/filesystem).
+Get started with the [documentation](https://stonejs.com/docs).
 
 
 ## Contributing

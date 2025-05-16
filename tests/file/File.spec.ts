@@ -1,4 +1,4 @@
-import mime from 'mime/lite'
+import mime from 'mime'
 import { Mock } from 'vitest'
 import { filesize } from 'filesize'
 import { createHash } from 'node:crypto'
@@ -34,8 +34,8 @@ vi.mock('node:fs', () => ({
 vi.mock('node:crypto', () => ({
   createHash: vi.fn(() => mockHash)
 }))
+vi.mock('mime')
 vi.mock('node:path')
-vi.mock('mime/lite')
 vi.mock('filesize', () => ({ filesize: vi.fn(() => '12.3 kB') }))
 
 /**

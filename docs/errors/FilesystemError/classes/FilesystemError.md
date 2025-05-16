@@ -1,12 +1,12 @@
-[**Filesystem Documentation v0.0.1**](../../../README.md)
+[**Filesystem Documentation**](../../../README.md)
 
 ***
 
-[Filesystem Documentation](../../../modules.md) / [errors/FilesystemError](../README.md) / FilesystemError
+[Filesystem Documentation](../../../README.md) / [errors/FilesystemError](../README.md) / FilesystemError
 
 # Class: FilesystemError
 
-Defined in: [filesystem/src/errors/FilesystemError.ts:6](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/errors/FilesystemError.ts#L6)
+Defined in: [filesystem/src/errors/FilesystemError.ts:6](https://github.com/stonemjs/filesystem/blob/3507c649e7e162008a7a2fa6bc8b30287cce6f59/src/errors/FilesystemError.ts#L6)
 
 Custom error for error operations.
 
@@ -16,11 +16,11 @@ Custom error for error operations.
 
 ## Constructors
 
-### new FilesystemError()
+### Constructor
 
-> **new FilesystemError**(`message`, `options`): [`FilesystemError`](FilesystemError.md)
+> **new FilesystemError**(`message`, `options`): `FilesystemError`
 
-Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/errors/FilesystemError.ts#L7)
+Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/stonemjs/filesystem/blob/3507c649e7e162008a7a2fa6bc8b30287cce6f59/src/errors/FilesystemError.ts#L7)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/ston
 
 #### Returns
 
-[`FilesystemError`](FilesystemError.md)
+`FilesystemError`
 
 #### Overrides
 
@@ -46,7 +46,7 @@ Defined in: [filesystem/src/errors/FilesystemError.ts:7](https://github.com/ston
 
 > `readonly` `optional` **cause**: `Error`
 
-Defined in: core/dist/index.d.ts:3343
+Defined in: core/dist/index.d.ts:3372
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: core/dist/index.d.ts:3343
 
 > `readonly` `optional` **code**: `string`
 
-Defined in: core/dist/index.d.ts:3342
+Defined in: core/dist/index.d.ts:3371
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: core/dist/index.d.ts:3342
 
 > `readonly` `optional` **metadata**: `unknown`
 
-Defined in: core/dist/index.d.ts:3344
+Defined in: core/dist/index.d.ts:3373
 
 #### Inherited from
 
@@ -80,9 +80,9 @@ Defined in: core/dist/index.d.ts:3344
 
 ### toString()
 
-> **toString**(`multiline`?): `string`
+> **toString**(`multiline?`): `string`
 
-Defined in: core/dist/index.d.ts:3365
+Defined in: core/dist/index.d.ts:3394
 
 Converts the error to a formatted string representation.
 
@@ -108,15 +108,17 @@ A formatted error string.
 
 ### create()
 
-> `static` **create**\<`T`\>(`message`, `options`?): `T`
+> `static` **create**\<`T`\>(`message`, `options?`): `T`
 
-Defined in: core/dist/index.d.ts:3351
+Defined in: core/dist/index.d.ts:3380
 
 Create a RuntimeError.
 
 #### Type Parameters
 
-• **T** *extends* `RuntimeError` = `RuntimeError`
+##### T
+
+`T` *extends* `RuntimeError` = `RuntimeError`
 
 #### Parameters
 

@@ -1,14 +1,14 @@
-[**Filesystem Documentation v0.0.1**](../../README.md)
+[**Filesystem Documentation**](../../README.md)
 
 ***
 
-[Filesystem Documentation](../../modules.md) / [utils](../README.md) / dirPath
+[Filesystem Documentation](../../README.md) / [utils](../README.md) / dirPath
 
 # Function: dirPath()
 
 > **dirPath**(...`paths`): `string`
 
-Defined in: [filesystem/src/utils.ts:27](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/utils.ts#L27)
+Defined in: [filesystem/src/utils.ts:24](https://github.com/stonemjs/filesystem/blob/3507c649e7e162008a7a2fa6bc8b30287cce6f59/src/utils.ts#L24)
 
 Resolve path from file directory.
 

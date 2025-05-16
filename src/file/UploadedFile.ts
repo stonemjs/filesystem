@@ -1,4 +1,4 @@
-import mime from 'mime/lite'
+import mime from 'mime'
 import { File } from './File'
 import { basename, extname } from 'node:path'
 import { FilesystemError } from '../errors/FilesystemError'

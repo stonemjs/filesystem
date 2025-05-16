@@ -1,8 +1,8 @@
-[**Filesystem Documentation v0.0.1**](../../README.md)
+[**Filesystem Documentation**](../../README.md)
 
 ***
 
-[Filesystem Documentation](../../modules.md) / file/UploadedFile
+[Filesystem Documentation](../../README.md) / file/UploadedFile
 
 # file/UploadedFile
 

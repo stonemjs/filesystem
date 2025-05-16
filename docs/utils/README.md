@@ -1,14 +1,10 @@
-[**Filesystem Documentation v0.0.1**](../README.md)
+[**Filesystem Documentation**](../README.md)
 
 ***
 
-[Filesystem Documentation](../modules.md) / utils
+[Filesystem Documentation](../README.md) / utils
 
 # utils
-
-## Variables
-
-- [\_\_dirname](variables/dirname.md)
 
 ## Functions
 

@@ -19,7 +19,7 @@ import {
   realpathSync,
   writeFileSync
 } from 'node:fs'
-import mime from 'mime/lite'
+import mime from 'mime'
 import { filesize } from 'filesize'
 import { createHash } from 'node:crypto'
 import { FilesystemError } from '../errors/FilesystemError'

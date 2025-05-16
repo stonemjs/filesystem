@@ -75,11 +75,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-
-# Index
-index.html
-
-# Examples
-examples/
-
-README_docs.md

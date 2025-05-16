@@ -1,13 +1,13 @@
-import mime from 'mime/lite'
+import mime from 'mime'
 import { Mock } from 'vitest'
 import { existsSync } from 'node:fs'
-import { basename, extname } from 'node:path'
-import { FilesystemError } from '../../src/errors/FilesystemError'
-import { UploadedFile } from '../../src/file/UploadedFile'
 import { File } from '../../src/file/File'
+import { basename, extname } from 'node:path'
+import { UploadedFile } from '../../src/file/UploadedFile'
+import { FilesystemError } from '../../src/errors/FilesystemError'
 
+vi.mock('mime')
 vi.mock('node:path')
-vi.mock('mime/lite')
 vi.mock('node:fs', () => ({
   existsSync: vi.fn()
 }))

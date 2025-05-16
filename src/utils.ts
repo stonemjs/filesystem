@@ -1,8 +1,9 @@
 import { tmpdir } from 'node:os'
-import { join } from 'node:path'
 import process from 'node:process'
 import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
 
 /**
  * Constructs a base path by joining the current working directory with the provided paths.
@@ -21,7 +22,7 @@ export function basePath (...paths: string[]): string {
  * @returns {string}
  */
 export function dirPath (...paths: string[]): string {
-  return join(__dirname, ...paths)
+  return join(dirname(fileURLToPath(import.meta.url)), ...paths)
 }
 
 /**

@@ -1,14 +1,14 @@
-[**Filesystem Documentation v0.0.1**](../../README.md)
+[**Filesystem Documentation**](../../README.md)
 
 ***
 
-[Filesystem Documentation](../../modules.md) / [utils](../README.md) / tmpPath
+[Filesystem Documentation](../../README.md) / [utils](../README.md) / tmpPath
 
 # Function: tmpPath()
 
 > **tmpPath**(...`paths`): `string`
 
-Defined in: [filesystem/src/utils.ts:37](https://github.com/stonemjs/filesystem/blob/f9b4644b0de1467784914ebdad54c26a1ab4bd47/src/utils.ts#L37)
+Defined in: [filesystem/src/utils.ts:34](https://github.com/stonemjs/filesystem/blob/3507c649e7e162008a7a2fa6bc8b30287cce6f59/src/utils.ts#L34)
 
 Resolve path from system tmp directory.
 

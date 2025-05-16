@@ -1,8 +1,8 @@
-[**Filesystem Documentation v0.0.1**](../../README.md)
+[**Filesystem Documentation**](../../README.md)
 
 ***
 
-[Filesystem Documentation](../../modules.md) / errors/FilesystemError
+[Filesystem Documentation](../../README.md) / errors/FilesystemError
 
 # errors/FilesystemError
 
