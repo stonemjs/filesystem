@@ -16,7 +16,8 @@
     "fs",
     "files",
     "Stone.js",
-    "filesystem"
+    "filesystem",
+    "uploaded file"
   ],
   "files": [
     "/dist"
