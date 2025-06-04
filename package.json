@@ -1,6 +1,6 @@
 {
   "name": "@stone-js/filesystem",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Stone.js Filesystem",
   "author": "Mr. Stone <evensstone@gmail.com>",
   "license": "MIT",
