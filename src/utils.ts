@@ -66,16 +66,6 @@ export function appPath (...paths: string[]): string {
 }
 
 /**
- * Resolve path from config directory.
- *
- * @param   {...string} paths
- * @returns {string}
- */
-export function configPath (...paths: string[]): string {
-  return basePath('config', ...paths)
-}
-
-/**
  * Resolve path from node_modules directory.
  *
  * @param   {...string} paths

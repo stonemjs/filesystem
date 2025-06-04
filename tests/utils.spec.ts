@@ -5,7 +5,6 @@ import {
   tmpPath,
   basePath,
   buildPath,
-  configPath,
   getFileHash,
   importModule,
   nodeModulesPath
@@ -36,10 +35,6 @@ describe('Path Utilities', () => {
 
   it('should resolve appPath correctly', () => {
     expect(appPath('controller')).toBe(join(process.cwd(), 'app', 'controller'))
-  })
-
-  it('should resolve configPath correctly', () => {
-    expect(configPath('routes.ts')).toBe(join(process.cwd(), 'config', 'routes.ts'))
   })
 
   it('should resolve nodeModulesPath correctly', () => {

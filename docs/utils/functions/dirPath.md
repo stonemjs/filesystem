@@ -8,7 +8,7 @@
 
 > **dirPath**(...`paths`): `string`
 
-Defined in: [filesystem/src/utils.ts:24](https://github.com/stonemjs/filesystem/blob/3507c649e7e162008a7a2fa6bc8b30287cce6f59/src/utils.ts#L24)
+Defined in: [utils.ts:24](https://github.com/stonemjs/filesystem/blob/064ba29e1d5559c367f9a7471b75a6d308ebe158/src/utils.ts#L24)
 
 Resolve path from file directory.
 
