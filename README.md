@@ -4,12 +4,18 @@
 [![npm](https://img.shields.io/npm/v/@stone-js/filesystem)](https://www.npmjs.com/package/@stone-js/filesystem)
 [![npm](https://img.shields.io/npm/dm/@stone-js/filesystem)](https://www.npmjs.com/package/@stone-js/filesystem)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025)
-[![Build Status](https://github.com/stonemjs/filesystem/actions/workflows/main.yml/badge.svg)](https://github.com/stonemjs/filesystem/actions/workflows/main.yml)
-[![Publish Package to npmjs](https://github.com/stonemjs/filesystem/actions/workflows/release.yml/badge.svg)](https://github.com/stonemjs/filesystem/actions/workflows/release.yml)
-[![codecov](https://codecov.io/gh/stonemjs/filesystem/graph/badge.svg?token=5MKS9179YL)](https://codecov.io/gh/stonemjs/filesystem)
-[![CodeQL](https://github.com/stonemjs/filesystem/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/stonemjs/filesystem/security/code-scanning)
-[![Dependabot Status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/stonemjs/filesystem/network/updates)
+[![Build Status](https://github.com/stone-foundation/stone-js-filesystem/actions/workflows/main.yml/badge.svg)](https://github.com/stone-foundation/stone-js-filesystem/actions/workflows/main.yml)
+[![Publish Package to npmjs](https://github.com/stone-foundation/stone-js-filesystem/actions/workflows/release.yml/badge.svg)](https://github.com/stone-foundation/stone-js-filesystem/actions/workflows/release.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-filesystem&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-filesystem)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=stone-foundation_stone-js-filesystem&metric=coverage)](https://sonarcloud.io/summary/new_code?id=stone-foundation_stone-js-filesystem)
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](./SECURITY.md)
+[![CodeQL](https://github.com/stone-foundation/stone-js-filesystem/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/stone-foundation/stone-js-filesystem/security/code-scanning)
+[![Dependabot Status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/stone-foundation/stone-js-filesystem/network/updates)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
+A robust, strongly typed ESM utility for safe, contextual file and path management in Stone.js applications.
+
+---
 
 ## Overview
 
@@ -31,9 +37,10 @@ This package is part of the **Stone.js ecosystem**, designed to support the **Co
 
 ```bash
 npm install @stone-js/filesystem
-````
+```
 
-> Requires Node.js v18+ and ES Module support.
+> \[!IMPORTANT]
+> This package is **pure ESM**. Ensure your `package.json` includes `"type": "module"` or configure your bundler appropriately.
 
 ## Usage
 
@@ -49,18 +56,18 @@ if (file.isReadable()) {
 
 For more examples and a complete guide to path resolution, file mutation, and upload handling, visit the official documentation:
 
-**[https://stonejs.com/docs](https://stonejs.com/docs)**
+**[https://stonejs.dev/docs](https://stonejs.dev/docs)**
 
 ## Learn More
 
 This package is part of the Stone.js ecosystem, a modern JavaScript framework built around the Continuum Architecture.
 
-Explore the full documentation: https://stonejs.com
+Explore the full documentation: https://stonejs.dev
 
 ## API documentation
 
-* [API](https://github.com/stonemjs/filesystem/blob/main/docs)
+* [API](https://github.com/stone-foundation/stone-js-filesystem/blob/main/docs)
 
 ## Contributing
 
-See [Contributing Guide](https://github.com/stonemjs/filesystem/blob/main/CONTRIBUTING.md)
+See [Contributing Guide](https://github.com/stone-foundation/stone-js-filesystem/blob/main/CONTRIBUTING.md)
