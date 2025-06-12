@@ -4,6 +4,13 @@ All notable changes to the "Stone.js Filesystem" extension will be documented in
 
 ## Unreleased
 
+## [0.1.1](https://github.com/stone-foundation/stone-js-filesystem/compare/v0.1.0...v0.1.1) (2025-06-12)
+
+
+### Miscellaneous Chores
+
+* migrate to stone-foundation, integrate sonar cloud and add security policy ([#11](https://github.com/stone-foundation/stone-js-filesystem/issues/11)) ([d9fba47](https://github.com/stone-foundation/stone-js-filesystem/commit/d9fba47afc23924107bee18cba844d18dcf77a0e))
+
 ## 0.1.0 (2025-06-04)
 
 
